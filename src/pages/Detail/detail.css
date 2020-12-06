@@ -1,0 +1,22 @@
+.income-detail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.income-detail p{
+    font-size: 14px;
+    color: #D0D0D0;
+}
+.income-detail h4{
+    font-size: 18px;
+    color: #F1F1F1;
+}
+
+.information-this-week h2{
+    font-weight: bold;
+    font-size: 18px !important;
+    color: #514F5B;
+    margin-bottom: 48px;
+}
+

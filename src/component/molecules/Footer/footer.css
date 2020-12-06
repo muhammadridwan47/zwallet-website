@@ -1,0 +1,17 @@
+footer{
+    padding-top: 24px;
+    padding-bottom:24px;
+    background: #6379F4;
+    margin-top:35px
+}
+footer .license{
+    font-weight: normal;
+    color:#EFEFEF;
+    font-size: 16px;
+    margin-left: -10px;
+}
+footer .contact a{
+    font-weight: 600;
+    font-size: 16px;
+    color:#EFEFEF;
+}

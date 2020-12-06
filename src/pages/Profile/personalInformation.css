@@ -1,0 +1,79 @@
+.body-area-profile-personal{
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.body-area-profile-personal h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3A3D42;
+}
+
+.body-area-profile-personal p{
+    max-width: 342px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7A7886;
+    margin-top: 25px;
+    margin-bottom: 37px;
+}
+
+.card-personal-information{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 92px;
+    margin-top: 20px;
+    position: relative;
+}
+.card-personal-information span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A7886;
+}
+.card-personal-information h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #514F5B;
+    margin-top: 10px;
+}
+
+.card-personal-information .manage{
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #6379F4;
+}
+
+
+
+@media (max-width: 575.98px) { 
+
+    .content .sidebar .logout{
+        margin-top: 64px !important;
+        text-decoration: none;
+        color: #3A3D42;
+    
+    }
+
+    .sidebar_menu{
+        display: none;
+    }
+
+    .body-area-profile-personal{
+        background-color:rgb(250, 252, 255);
+        box-shadow: none;
+    }
+    
+}

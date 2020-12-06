@@ -1,0 +1,65 @@
+.body-area-manage-number{
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.body-area-manage-number h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3A3D42;
+}
+
+.body-area-manage-number p{
+    max-width: 342px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7A7886;
+    margin-top: 25px;
+    margin-bottom: 40px;
+} 
+
+.primary-number{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 92px;
+    margin-top: 20px;
+    margin-bottom: 370px;
+    position: relative;
+}
+.primary-number span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A7886;
+}
+.primary-number h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #514F5B;
+    margin-top: 10px;
+}
+.primary-number .delete-number{
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 575.98px) { 
+
+
+    .body-area-manage-number{
+        background-color:rgb(250, 252, 255);
+        box-shadow: none;
+    }
+    
+}

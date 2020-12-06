@@ -1,0 +1,95 @@
+.body-area-add-number{
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.body-area-add-number h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3A3D42;
+}
+
+.body-area-add-number p{
+    max-width: 342px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7A7886;
+    margin-top: 25px;
+    /* margin-bottom: 37px; */
+    margin-bottom: 120px;
+} 
+.change-phone .phone .icon-input{
+    position: absolute;
+    top: 5px;
+}
+.change-phone .phone span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3D42;
+}
+
+
+.change-phone  .phone input{
+    margin-top: 63px;
+    border: 1.5px solid rgba(169, 169, 169, 0.6);
+    border-top:hidden ;
+    border-left:hidden ;
+    border-right:hidden ;
+    padding: 11px 0px 14px 77px;
+    font-weight: normal;
+    font-weight: 600;
+    font-size: 16px !important;
+    line-height: 23px;
+    color: #3A3D42;
+    box-shadow: none;
+    background-color: transparent;
+
+}
+.change-phone  .phone input::placeholder{
+    color: #A9A9A9;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.change-phone .form-button button{
+    background: #DADADA;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 65px;
+    height:57px;
+    border: hidden;
+    font-size: 18px;
+    color: #88888F;
+    margin-bottom: 230px;
+}
+
+
+@media (max-width: 575.98px) { 
+
+
+    .body-area-add-number{
+        background-color:rgb(250, 252, 255);
+        box-shadow: none;
+        /* margin-top: -50px !important; */
+    }
+
+    .body-area-add-number .form-button button{
+
+        margin-top: 160px !important;
+        margin-bottom: 80px !important;
+
+    }
+    
+    
+
+}
+
+
+

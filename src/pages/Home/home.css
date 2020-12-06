@@ -1,0 +1,669 @@
+*{
+    font-family: 'Nunito Sans';
+}
+
+body{
+    background-color:#fafcff
+}
+
+nav{
+    border-radius: 0px 0px 20px 20px;
+    background-color: transparent !important;
+    z-index: 3;
+}
+
+
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 29px;
+    color: #6379F4 !important;
+    border-radius: 20px !important;
+}
+
+.profile .profile-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.profile .phone-number{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+
+
+ .navbar .login{
+    background: #6379F4;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 120px;
+    height: 48px;
+}
+
+.navbar .sign-up{
+    background:#fff;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #6379F4;
+    width: 120px;
+    height: 48px;
+}
+
+
+
+
+.layer{
+    position: absolute; 
+    right: 0;
+    top: 0;
+    z-index: 0;
+    
+}
+
+
+.header h1{
+    max-width:474px ;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    color: #3A3D42;
+    margin-top: 180px;
+}
+.header span{
+    color: #6379F4;
+}
+.header p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    max-width: 428px;
+    color: #3A3D42;
+}
+.header button{
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    color: white;
+    width: 173px;
+    height: 57px;
+
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-aplication{
+    background: rgba(71, 58, 209, 0.06);
+    padding:80px 0px 80px 0px;
+}
+
+.about-aplication{
+    background: rgba(71, 58, 209, 0.06);
+    padding:80px 0px 80px 0px;
+    margin-top: 80px !important;
+
+}
+.about-aplication h1{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    color: #3A3D42;
+    margin-bottom: 25px;
+   
+}
+.about-aplication span{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    color:#6379F4;
+}
+.about-aplication p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #3A3D42;
+    max-width: 567px;
+    margin-bottom: 62px !important;
+    
+}
+
+.card-about{
+    max-width: 367px;
+    max-height: 344px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 40px 22px 50px 22px;
+    box-sizing: border-box;
+}
+
+.card-about h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #3A3D42;
+    margin-top: 5px;
+}
+.card-about p{
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: rgba(58, 61, 66, 0.9);
+}
+
+.sponsored{
+    padding: 120px 0px 120px 0px;
+}
+.sponsored h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    color: #3A3D42;
+}
+.sponsored span{
+    color:#6379F4;
+}
+
+.sponsored p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(58, 61, 66, 0.9);
+    margin-top: 40  px;
+}
+.sponsored .brand{
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: flex-end;
+}
+
+
+
+.features{
+    background: rgba(71, 58, 209, 0.06);
+    padding: 144px 0px 144px 0px;
+}
+.features h1{
+    max-width: 480PX;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    color: #3A3D42;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.features span{
+    color:#6379F4;
+}
+.card-feature{
+    max-width: 620px;
+    height: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+.card-feature{
+    max-width: 620px;
+    height: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.card-feature h4{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31px;
+    color: #3A3D42;
+       
+}
+.card-feature span{
+    color:#6379F4;
+}
+.card-feature p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(58, 61, 66, 0.9);
+}
+
+
+.feedback{
+    padding: 120px 0px 120px 0px;
+}
+
+.feedback h1{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    color: #3A3D42;
+    margin-bottom: 25px;
+}
+.feedback span{
+    color:#6379F4;
+}
+.feedback p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #3A3D42;
+    max-width: 567px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.card-feedback{
+    max-width: 367px;
+    max-height: 344px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 40px 22px 50px 22px;
+    box-sizing: border-box;
+    /* overflow: scroll; */
+}
+
+.card-feedback h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #3A3D42;
+    margin-top: 25px;
+}
+.card-feedback p{
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: rgba(58, 61, 66, 0.9);
+}
+
+
+
+
+footer{
+    background: #6379F4;
+    margin-top:35px;
+    padding: 80px 0px 80px 0px;
+}
+
+footer h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(239, 239, 239, 0.75);
+    max-width: 285px;
+    margin-bottom: 50px;
+}
+
+footer hr{
+ border: 1px solid rgba(255, 255, 255, 0.6);
+ margin-bottom: 30px;
+}
+
+footer .license{
+    font-weight: normal;
+    color:#EFEFEF;
+    font-size: 16px;
+    margin-left: -10px;
+}
+footer .contact a{
+    font-weight: 600;
+    font-size: 16px;
+    color:#EFEFEF;
+}
+
+@media (max-width: 575.98px) { 
+    nav .container{
+        margin-top: 13px;
+    }
+    .navbar .login{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .navbar .sign-up{
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .navbar .navbar-brand{
+        color: rgb(253, 241, 241) !important;
+    }
+    .header h1{
+        max-width:474px ;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: white !important;
+        margin-top: 35px;
+    }
+    .header p{
+        margin-top: 30px;
+    }
+    .header button{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .header span{
+        color: white;
+    }
+    .header p{
+        color: white;
+    }
+    .header button{
+        color: white;
+        background-color: #6379F4;
+        border: 1px solid white;
+        border-radius: 12px;   
+        
+    }
+
+    .about-aplication{
+        background: rgba(71, 58, 209, 0.06);
+        padding:60px 0px 80px 0px;
+        margin-top: 50px !important;
+    
+    }
+    .about-aplication h1{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #3A3D42;
+       
+    }
+    .about-aplication span{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #6379F4;
+       
+    }
+    .about-aplication .m-auto {
+
+        margin-top: 20px !important;
+       
+    }
+
+    .sponsored .brand{
+        justify-content: center;
+    }
+
+    .sponsored h1{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #3A3D42;
+    }
+    .sponsored{
+        padding: 60px 0px 120px 0px;
+    }
+
+
+    .features{
+        padding: 30px 0px 0px 0px !important;
+    }
+
+    .card-feature{
+        max-width: 620px;
+        height: 17%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        padding: 25px 25px 25px 25px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .first-card{
+        /* padding: 25px 25px 25px 45px; */
+        height: 19% !important;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .features h1{
+        max-width: 480PX;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #3A3D42;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .feedback{
+        padding: 50px 0px 0px 0px;
+    }
+    
+    .feedback h1{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #3A3D42;
+    }   
+    .feedback p{
+        margin-bottom: 40px;
+    }
+    footer{
+        background: #6379F4;
+        margin-top:35px;
+        padding: 40px 0px 20px 0px;
+    }
+
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    nav .container{
+        margin-top: 13px;
+    }
+    .navbar .login{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .navbar .sign-up{
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    } 
+    .navbar .navbar-brand{
+        color: rgb(253, 241, 241) !important;
+    }
+    .header h1{
+        max-width:474px ;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 93px;
+        color: white;
+        margin-top: 35px;
+    }
+    .header span{
+        color: white;
+    }
+    .header p{
+        color: white;
+    }
+    .header button{
+        color: white;
+        background-color: #6379F4;
+        border: 1px solid white;
+        border-radius: 12px;   
+        
+    }
+
+    .sponsored .brand{
+        justify-content: center;
+    }
+
+    .features{
+        padding: 30px 0px 0px 0px !important;
+    }
+    .feedback{
+        padding: 50px 0px 0px 0px;
+    }
+    .card-feature{
+        max-width: 620px;
+        height: 17%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        padding: 25px 25px 25px 25px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .features h1{
+        max-width: 480PX;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #3A3D42;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    nav .container{
+        margin-top: 13px;
+    }
+    .navbar .login{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .navbar .sign-up{
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .header h1{
+        max-width:474px ;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 93px;
+        color: #3A3D42;
+        margin-top: 35px;
+    }
+    .header span{
+
+        color: #3A3D42;
+    }
+
+    .card-about{
+        max-width: 367px;
+        max-height: 400px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        padding: 40px 22px 50px 22px;
+        box-sizing: border-box;
+    }
+
+        .features{
+        padding: 30px 0px 0px 0px !important;
+    }
+
+    .card-feature{
+        max-width: 620px;
+        height: 17%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        padding: 25px 25px 25px 25px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .features h1{
+        max-width: 480PX;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        color: #3A3D42;
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    nav .container{
+        margin-top: 43px;
+    }
+    .header h1{
+        margin-top: 60px;
+    }
+    .header p{
+        margin-top: 35px;
+    }
+    .header button{
+        margin-top: 40px;
+    }
+    .header span{
+
+        color: #3A3D42;
+    }
+    .navbar .login{
+        margin-right: 25px;
+    }
+}
+@media (min-width: 1200px) { 
+    nav .container{
+        margin-top: 43px;
+    }
+    /* hanya berlaku buat dekstop */
+    .header .phone-image{
+        margin-left: 160px;
+        margin-top: 80px;
+    }
+    .header p{
+        margin-top: 35px;
+    }
+    .header button{
+        margin-top: 40px;
+    }
+
+    .navbar .login{
+        margin-right: 25px;
+    }
+ }
+
+
+
+

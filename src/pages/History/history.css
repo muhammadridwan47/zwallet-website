@@ -1,0 +1,194 @@
+
+.content{
+    margin-top: 40px;
+}
+
+
+.content .col-3{
+    border-radius: 25px;
+}
+
+.content .sidebar .dashboard{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px !important;
+    margin-top: 47px !important;
+}
+
+.content .sidebar .dashboard div{
+    border-left: 5px solid #6379F4;
+    height: 35px;
+    position: absolute;
+    left: 0;
+}
+
+.content .sidebar .transfer{
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+
+}
+.content .sidebar .top-up{
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+
+}
+.content .sidebar .profile{
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+
+}
+.content .sidebar .logout{
+    margin-top: 65% !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+}
+
+.body-area-history{
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+.body-area-history h1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+    margin-bottom: 17px;
+}
+
+.body-area-history p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+    margin-bottom: 39px;
+}
+
+.body-area-history .user-transaction h4{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4D4B57;
+}
+.body-area-history .user-transaction p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #7A7886;
+
+}
+
+.body-area-history .plus{
+    font-weight: bold;
+    font-size: 16px;
+    color: #1EC15F;
+}
+.body-area-history .minus{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FF5B37;
+}
+
+.show{
+    outline: hidden;
+    border: hidden;
+}
+
+
+
+
+
+footer{
+    padding-top: 24px;
+    padding-bottom:24px;
+    background: #6379F4;
+    margin-top:35px
+}
+footer .license{
+    font-weight: normal;
+    color:#EFEFEF;
+    font-size: 16px;
+    margin-left: -10px;
+}
+footer .contact a{
+    font-weight: 600;
+    font-size: 16px;
+    color:#EFEFEF;
+}
+
+
+
+
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .body-area-history .credit{
+        font-weight: bold;
+
+        font-size: 35px;
+        color: #fff;
+    }
+    .body-area-history .number{
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: 15px;
+        color: #E0E0E0;
+    }
+
+    .content .sidebar .logout{
+        margin-top: 64px !important;
+        text-decoration: none;
+        color: #3A3D42;
+    
+    }
+    .sidebar_menu{
+        display: none;
+    }
+
+    .body-area-history{
+        background-color:rgb(250, 252, 255);
+        box-shadow: none;
+        /* margin-top: -30px !important; */
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .content .sidebar .logout{
+        margin-top: 64px !important;
+        text-decoration: none;
+        color: #3A3D42;
+    
+    }
+    .payment-history .money-minus{
+        transform: translateX(0px);
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* .user-transaction{
+        transform: translateX(-12px);
+    }
+     */
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .user-transaction{
+        transform: translateX(-12px);
+    }
+
+ }
+
+ @media (min-width: 1200px) { 
+    .user-transaction{
+        transform: translateX(-30px);
+    }
+    
+}

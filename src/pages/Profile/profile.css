@@ -1,0 +1,221 @@
+.content .sidebar .dashboard-pr{
+    text-decoration: none;
+    font-size: 18px !important;
+    margin-top: 47px !important;
+    color: #3A3D42;
+}
+
+
+.content .sidebar .transfer-pr{
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+
+}
+.content .sidebar .top-up-pr{
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+
+
+}
+.content .sidebar .profile-pr{
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #6379F4;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.content .sidebar .profile-pr div{
+    border-left: 5px solid #6379F4;
+    height: 35px;
+    position: absolute;
+    left: 0;
+}
+
+
+.content .sidebar .logout-pr{
+    margin-top: 90% !important;
+    text-decoration: none;
+    color: #3A3D42;
+    font-size: 18px;
+}
+
+
+
+.body-area-profile{
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+.body-area-profile .card-profile{
+    max-width:433px !important;
+    height: 64px;
+    background: #E5E8ED;
+    border-radius: 10px;
+}
+.body-area-profile .profile-image{
+    width: 80px;
+    height: 80px;
+    margin-top: 35px !important;
+    border-radius: 10px;
+}
+.body-area-profile span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+    margin-top: 10px;
+}
+.body-area-profile h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4D4B57;
+    margin-top: 15px;
+}
+.body-area-profile p{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+    margin-bottom: 50px;
+
+}
+
+.body-area-profile .card-profile{
+    max-width:433px !important;
+    height: 64px;
+    background: #E5E8ED;
+    border-radius: 10px;
+    padding: 12px 25px 18px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.body-area-profile .card-profile p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4D4B57;
+}
+
+
+.edit-image {
+    margin-top: 8%;
+}
+.edit-image  .modal-content{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 35px;
+}
+
+.edit-image  .modal-header h5{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+    margin-bottom: 20px;
+}
+
+.edit-image  .modal-body .form-upload input{
+    background: #FFFFFF;
+    border: 1px solid rgba(169, 169, 169, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+    height: 45px;
+    margin: 40px 14px 20px 0px;
+    font-weight: bold;
+    color: #3A3D42;
+}
+
+.edit-image  .modal-body .pin .input-line{
+    position: absolute;
+    top: 92px;
+    left: 26px;
+}
+
+
+
+.show{
+    outline: hidden;
+    border: hidden;
+}
+
+.edit-image .btn{
+    height: 57px;
+    width: 150px;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+}
+.edit-image .btn{
+    height: 57px;
+    width: 150px;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+}
+.edit-image .hover-image{
+    background-color: #000;
+    height: 80px;
+    width: 80px; 
+    position: absolute;
+     display: inline;
+    opacity: 0.4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.edit-image .image-upload{
+    position: absolute;
+    width: 80px !important;
+    height: 100px !important;
+    bottom: 0 !important;
+    margin-bottom: 0 !important;
+    opacity: 0;
+    cursor: pointer;
+}
+.edit-image .avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+
+}
+.btn-edit{
+    cursor: pointer !important;
+}
+
+
+
+@media (max-width: 575.98px) { 
+
+ .body-area-profile{
+    background-color:rgb(250, 252, 255);
+    box-shadow: none;
+    margin-top: -50px !important;
+ }
+
+ .body-area-profile .card-profile img{
+    width: 28px !important;
+    height: 28px !important;
+}
+}
