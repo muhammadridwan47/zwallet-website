@@ -25,3 +25,14 @@ Download the projects:
 
 ```
 ~$ git clone https://github.com/muhammadridwan47/zwallet-website
+```
+
+install dependencies using npm or yarn   
+```
+yarn OR npm i
+```
+
+running App
+```
+yarn start or npm start
+```
