@@ -14,10 +14,6 @@
 
 
 
-### # Sign In
-Email   : angga@gmail.com
-</br>
-Password: 123456789
 
 
 ### # ABOUT
@@ -43,3 +39,9 @@ running App
 ```
 yarn start or npm start
 ```
+
+### # Sign In
+Email   : angga@gmail.com
+</br>
+Password: 123456789
+
